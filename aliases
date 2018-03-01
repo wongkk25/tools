@@ -1,10 +1,12 @@
 #git
 alias gita="git add"
+alias gitcout="git checkout"
 alias gitc="git commit -m"
 alias gitca="git commit ./ -m"
 alias gitd="git diff"
 alias gitl="git log"
 alias gitp="git push"
+alias gitpl="git pull"
 alias gitstash="git stash"
 alias gitsa="git stash apply"
 alias gitsp="git stash pop"
