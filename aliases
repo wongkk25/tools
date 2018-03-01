@@ -1,5 +1,6 @@
 #git
 alias gita="git add"
+alias gitamend="git commit --amend"
 alias gitcout="git checkout"
 alias gitc="git commit -m"
 alias gitca="git commit ./ -m"
