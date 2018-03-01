@@ -1,0 +1,11 @@
+#git
+alias gita="git add"
+alias gitc="git commit -m"
+alias gitca="git commit ./ -m"
+alias gitd="git diff"
+alias gitl="git log"
+alias gitp="git push"
+alias gitstash="git stash"
+alias gitsa="git stash apply"
+alias gitsp="git stash pop"
+alias gits="git status"
