@@ -7,6 +7,7 @@ sudo add-apt-repository ppa:alexlarsson/flatpak
 sudo apt-get update
 sudo apt-get install \
 	adb \
+	docker.io \
   	flatpak \
   	git \
 	gparted \
