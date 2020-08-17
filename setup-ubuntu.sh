@@ -45,7 +45,8 @@ sudo apt-get install nvidia-graphics-drivers-450
 # pyenv
 curl https://pyenv.run | bash
 reset
-pyenv install 3.8
+pyenv latest install
+pyenv latest install 2.7
 
 #rvm
 gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
