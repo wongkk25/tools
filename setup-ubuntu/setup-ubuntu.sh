@@ -3,6 +3,8 @@
 # script to install a bunch of random apps I use sometimes, after OS clean install
 # for Ubuntu based distros
 
+chmod 755 *
+
 sudo add-apt-repository ppa:alexlarsson/flatpak
 sudo apt-get update
 sudo apt-get install \
@@ -17,6 +19,8 @@ sudo apt-get install \
 	tmux \
 	virtualbox \
 	zsh
+
+sudo ./setup-darktable-ubuntu.sh
 
 chsh -s /bin/zsh
 
@@ -33,7 +37,6 @@ flatpak install flathub \
 	com.slack.Slack \
 	com.spotify.Client \
  	org.audacityteam.Audacity \
-	org.darktable.Darktable \
 	org.gimp.GIMP \
 	org.libreoffice.LibreOffice \
 	org.mozilla.Thunderbird \
@@ -45,7 +48,6 @@ curl https://rclone.org/install.sh | sudo bash
 # lastly, upgrade existing binaries
 sudo apt-get upgrade
 
-chmod 755 *
 sudo ./setup-pyenv-ubuntu.sh
 sudo ./setup-rvm.sh
 
