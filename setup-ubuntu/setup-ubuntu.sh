@@ -51,12 +51,4 @@ sudo apt-get upgrade
 sudo ./setup-pyenv-ubuntu.sh
 sudo ./setup-rvm.sh
 
-# todo nvidia-graphics-drivers is broken
-# nvidia drivers
-sudo add-apt-repository ppa:graphics-drivers/ppa
-sudo apt-get update
-sudo apt-get install nvidia-graphics-drivers-450
-
-./setup-rvm.sh
-
 echo "Installation complete, restart computer"
