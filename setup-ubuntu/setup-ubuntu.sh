@@ -20,6 +20,9 @@ sudo apt-get install \
 
 chsh -s /bin/zsh
 
+# zsh has some issues with detecting snap packages; below line should fix them
+emulate sh -c 'source /etc/profile.d/apps-bin-path.sh'
+
 sudo snap install code
 
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
