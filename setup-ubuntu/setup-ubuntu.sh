@@ -42,22 +42,16 @@ curl https://rclone.org/install.sh | sudo bash
 # lastly, upgrade existing binaries
 sudo apt-get upgrade
 
+chmod 755 *
+sudo ./setup-pyenv-ubuntu.sh
+sudo ./setup-rvm.sh
+
 # todo nvidia-graphics-drivers is broken
 # nvidia drivers
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt-get update
 sudo apt-get install nvidia-graphics-drivers-450
 
-# todo move to separate setup file, fix broken installation of this + needs dependencies
-# pyenv
-curl https://pyenv.run | bash
-source ./
-pyenv install 3.8
-
-# todo move to separate setup file
-# rvm
-gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
-curl -sSL https://get.rvm.io | bash -s stable
-rvm install ruby --latest
+./setup-rvm.sh
 
 echo "Installation complete, restart computer"
