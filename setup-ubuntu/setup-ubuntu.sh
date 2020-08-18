@@ -10,6 +10,10 @@ sudo apt-get update
 sudo apt-get install \
 	adb \
 	docker.io \
+	fcitx-bin \
+	fcitx-googlepinyin \
+	fcitx-frontend-qt5 \
+	fcitx-mozc \
   	flatpak \
   	git \
 	gparted \
