@@ -191,3 +191,11 @@ bar {
 bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
+
+# Apps launched at startup
+exec_always firefox
+exec_always gnome-terminal
+exec_always signal-desktop
+
+# Always set wallpaper
+exec_always feh --bg-scale ~/Pictures/wallpaper.jpg
