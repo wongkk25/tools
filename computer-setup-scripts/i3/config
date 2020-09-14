@@ -198,4 +198,4 @@ exec_always gnome-terminal
 exec_always signal-desktop
 
 # Always set wallpaper
-exec_always feh --bg-scale ~/Pictures/wallpaper.jpg
+exec_always feh --bg-scale ~/Pictures/Wallpapers/wallpaper.jpg
