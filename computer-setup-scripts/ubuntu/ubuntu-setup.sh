@@ -24,19 +24,23 @@ sudo apt-get install -y \
 	adb \
 	audacity \
 	codium \
+	compton \
 	darktable \
 	docker.io \
 	fcitx-bin \
 	fcitx-googlepinyin \
 	fcitx-mozc \
+	feh \
   	flatpak \
   	git \
 	gimp \
 	gparted \
 	gnupg2 \
 	htop \
+	i3-gaps \
 	nodejs \
 	octave \
+	playerctl \
 	rclone \
 	signal-desktop \
 	tmux \
