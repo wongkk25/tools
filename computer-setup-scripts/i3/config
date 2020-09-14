@@ -105,7 +105,7 @@ bindsym $mod+a focus parent
 
 # define names for default workspaces for which we configure key bindings later on.
 # we use variables to avoid repeating the names in multiple places.
-set $ws1 "1: terminals"
+set $ws1 "1: terminal"
 set $ws2 "2: messaging"
 set $ws3 "3: email"
 set $ws4 "4"
@@ -141,7 +141,6 @@ bindsym $mod+shift+9 move container to workspace number $ws9
 bindsym $mod+shift+0 move container to workspace number $ws10
 
 # application-workspace bindings
-assign [class="gnome-terminal"] $ws1
 assign [class="signal"] $ws2
 assign [class="thunderbird"] $ws3 
 assign [class="Spotify"] $ws10
@@ -184,6 +183,8 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+	i3bar_command i3bar --transparency
+	position top
 }
 
 # Media player controls
