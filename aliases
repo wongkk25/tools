@@ -23,3 +23,5 @@ alias mvncistu="mvn clean install -DskipTests -U"
 alias mvnt="mvn test"
 alias mvndt="mvn dependency:tree"
 alias mvnts="mvn test -DwildcardSuites=$1"
+
+alias weather="curl \"wttr.in/?m\""
