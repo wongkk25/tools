@@ -3,8 +3,10 @@
 # script to install a bunch of random apps I use sometimes, after OS clean install
 # for Fedora based distros
 
+FEDORA_VERSION = $(rpm -E %fedora)
+
 # enable rpmfusion
-sudo dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install -y http://mirrors.lug.mtu.edu/rpmfusion/free/fedora/rpmfusion-free-release-$FEDORA_VERSION.noarch.rpm http://mirrors.lug.mtu.edu/rpmfusion/free/fedora/rpmfusion-free-release-$FEDORA_VERSION.noarch.rpm
 
 # vscodium
 sudo rpm --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg 
