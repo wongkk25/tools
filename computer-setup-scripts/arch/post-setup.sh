@@ -18,9 +18,11 @@ pacman -S adb \
 	gnupg2 \
 	htop \
 	i3-gaps \
+	neovim \
 	octave \
 	rclone \
-	neovim \
+	rofi \
+	signal-desktop \
 	xorg-xinit \
 	xterm \
 	zsh \
