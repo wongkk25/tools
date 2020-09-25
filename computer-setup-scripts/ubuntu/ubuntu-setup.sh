@@ -48,11 +48,12 @@ sudo apt-get install -y \
 	virtualbox \
 	zsh
 
-chsh -s /bin/zsh
+chsh -s $(which zsh)
 
-./install-pyenv.sh
+./install-pyenv-dependencies-ubuntu.sh
+../install-pyenv.sh
 sudo ../install-rvm.sh
-sudo ../install-flatpaks.sh
+../install-flatpaks.sh
 
 sudo apt upgrade
 
