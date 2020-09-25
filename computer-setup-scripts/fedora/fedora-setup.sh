@@ -19,9 +19,6 @@ sudo dnf install -y \
 	compton \
 	darktable \
 	docker \
-	fcitx \
-	fcitx-googlepinyin \
-	fcitx-mozc \
 	feh \
   	flatpak \
   	git \
@@ -29,17 +26,15 @@ sudo dnf install -y \
 	gparted \
 	gnupg2 \
 	htop \
-	i3-gaps \
-	nodejs \
+	i3 \
 	octave \
 	playerctl \
 	rclone \
-	signal-desktop \
 	neovim \
-	virtualbox \
+	VirtualBox \
 	zsh
 
-chsh -s /bin/zsh
+chsh -s $(which zsh)
 
 ./install-pyenv.sh
 sudo ../install-rvm.sh
