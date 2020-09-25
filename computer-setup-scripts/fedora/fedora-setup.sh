@@ -38,6 +38,7 @@ chsh -s $(which zsh)
 
 ./install-pyenv.sh
 sudo ../install-rvm.sh
-sudo ../install-flatpaks.sh
+sudo ../flatpak/add-flathub-repo.sh
+../flatpak/install-flatpaks.sh
 
 echo "Installation complete, restart computer"
