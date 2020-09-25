@@ -38,7 +38,7 @@ sudo dnf install -y \
 
 chsh -s $(which zsh)
 
-./install-pyenv.sh
+../install-pyenv.sh
 sudo ../install-rvm.sh
 sudo ../flatpak/add-flathub-repo.sh
 ../flatpak/install-flatpaks.sh
