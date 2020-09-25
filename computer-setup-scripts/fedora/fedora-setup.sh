@@ -3,7 +3,7 @@
 # script to install a bunch of random apps I use sometimes, after OS clean install
 # for Fedora based distros
 
-FEDORA_VERSION = $(rpm -E %fedora)
+FEDORA_VERSION=$(rpm -E %fedora)
 
 # enable rpmfusion
 sudo dnf install -y http://mirrors.lug.mtu.edu/rpmfusion/free/fedora/rpmfusion-free-release-$FEDORA_VERSION.noarch.rpm http://mirrors.lug.mtu.edu/rpmfusion/free/fedora/rpmfusion-free-release-$FEDORA_VERSION.noarch.rpm
