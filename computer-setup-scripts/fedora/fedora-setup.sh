@@ -17,6 +17,7 @@ sudo dnf upgrade -y
 
 sudo dnf install -y \
 	adb \
+	akmod-nvidia \
 	audacity \
 	codium \
 	compton \
