@@ -6,7 +6,8 @@
 FEDORA_VERSION=$(rpm -E %fedora)
 
 # enable rpmfusion
-sudo dnf install -y http://mirrors.lug.mtu.edu/rpmfusion/free/fedora/rpmfusion-free-release-$FEDORA_VERSION.noarch.rpm http://mirrors.lug.mtu.edu/rpmfusion/free/fedora/rpmfusion-free-release-$FEDORA_VERSION.noarch.rpm
+sudo dnf install -y http://mirrors.lug.mtu.edu/rpmfusion/free/fedora/rpmfusion-free-release-$FEDORA_VERSION.noarch.rpm
+sudo dnf install -y http://mirrors.lug.mtu.edu/rpmfusion/nonfree/fedora/rpmfusion-nonfree-release-$FEDORA_VERSION.noarch.rpm
 
 # vscodium
 sudo rpm --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg 
