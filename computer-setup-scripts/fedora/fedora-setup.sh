@@ -36,6 +36,9 @@ sudo dnf install -y \
 	VirtualBox \
 	zsh
 
+# pyenv dependencies
+sudo dnf install -y zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel xz xz-devel libffi-devel findutils
+
 chsh -s $(which zsh)
 
 ../install-pyenv.sh
