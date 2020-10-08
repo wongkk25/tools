@@ -15,3 +15,5 @@ sleep 2 # wait for app to load
 DROIDCAM_PORT=4747
 droidcam-cli -a -v adb $DROIDCAM_PORT
 
+# droidcam leaves screen on; turn it off
+adb shell input keyevent KEYCODE_POWER
