@@ -28,11 +28,13 @@ sudo apt-get install -y \
 	gnupg2 \
 	htop \
 	i3-wm \
+	i3status \
 	neovim \
 	nodejs \
 	octave \
 	playerctl \
 	rclone \
+	rofi \
 	tmux \
 	virtualbox \
 	zsh
