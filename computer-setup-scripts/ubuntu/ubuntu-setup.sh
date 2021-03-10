@@ -47,6 +47,6 @@ sudo ../install-rvm.sh
 sudo ../flatpak/add-flathub-repo.sh
 ../flatpak/install-flatpaks.sh
 
-sudo apt upgrade
+sudo apt upgrade -y
 
 echo "Installation complete, restart computer"
